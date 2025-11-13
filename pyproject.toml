@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "kimi-ai-k2-chat-app"
+version = "0.1.0"
+description = "Lightweight Python web app to chat with Kimi AI LLMs and AI Agents"
+authors = ["Hamza B <h.bendemra@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.51.0"
+openai = "^2.7.2"
+python-dotenv = "^1.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
