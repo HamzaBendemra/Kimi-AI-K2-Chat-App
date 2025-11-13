@@ -2,6 +2,12 @@
 
 A beautiful and user-friendly Streamlit application for chatting with Kimi AI, powered by Moonshot AI's advanced language models.
 
+## 📸 Screenshot
+
+![Kimi AI Chat App](screenshot.png)
+
+*Modern, professional interface with dark sidebar and clean gradient background*
+
 ## Features
 
 - 💬 **Real-time Chat**: Interactive conversation with Kimi AI
