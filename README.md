@@ -4,7 +4,7 @@ A beautiful and user-friendly Streamlit application for chatting with Kimi AI, p
 
 ## 📸 Screenshot
 
-![Kimi AI Chat App](screenshot.png)
+![Kimi AI Chat App](assets/screenshot.png)
 
 *Modern, professional interface with dark sidebar and clean gradient background*
 

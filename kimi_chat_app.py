@@ -42,6 +42,15 @@ st.markdown("""
         width: 350px !important;
     }
     
+    /* Hide sidebar collapse button */
+    [data-testid="collapsedControl"] {
+        display: none;
+    }
+    
+    button[kind="header"] {
+        display: none;
+    }
+    
     [data-testid="stSidebar"] [data-testid="stMarkdownContainer"] {
         color: #e2e8f0;
     }
@@ -445,7 +454,7 @@ with st.sidebar:
     # Show if API key is loaded from .env
     env_api_key = os.getenv('KIMI_API_KEY', '')
     if env_api_key and not st.session_state.get('api_key_input_override'):
-        st.success(f"✓ API Key loaded from .env", icon="✅")
+        st.success("✓ API Key loaded from .env", icon="✅")
         st.caption(f"Key: {env_api_key[:8]}...{env_api_key[-4:]}")
         if st.button("🔄 Use different key", key="override_env_key"):
             st.session_state.api_key_input_override = True
